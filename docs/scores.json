@@ -1,0 +1,9 @@
+{
+  "soundness": 5,
+  "novelty": 4,
+  "significance": 5,
+  "clarity": 5,
+  "evidence_quality": 4,
+  "overall": 5,
+  "justification": "The paper demonstrates a competent application of sparse-regression PDE discovery to a challenging 3D turbulent dataset, yielding interpretable momentum equations with moderate R\u00b2 and a forward-integration validation that preserves macroscopic statistics. However, a critical mathematical inconsistency is present in the time-step inference from the advection coefficient, and coefficient interpretability is undermined by unaddressed feature normalization and ambiguous derivative scaling; the density equation contains an unphysical anti-diffusion term. Reproducibility and robustness are limited by under-specified CV/splitting, identifiability/collinearity in the library, missing explicit final equations, and turbulence-relevant diagnostics. Overall impact and novelty are moderate, as the methodology largely follows established PDE-FIND/SINDy frameworks without clear advances beyond the 3D setting."
+}
